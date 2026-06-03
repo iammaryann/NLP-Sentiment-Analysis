@@ -1,5 +1,7 @@
 # Amazon E-Commerce Sentiment Analysis & Deployment
 
+https://share.google/DYik8j0ujyuPRvaph
+
 An end-to-end NLP sentiment analysis pipeline achieving **92% accuracy**, deployed as a live web application via Flask and Streamlit.
 
 ## 📌 Project Overview
