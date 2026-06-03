@@ -1,7 +1,3 @@
-# NLP-Sentiment-Analysis
-
-NLP sentiment analysis pipeline achieving 92% accuracy, deployed via Flask and Streamlit
-
 # Amazon E-Commerce Sentiment Analysis & Deployment
 
 An end-to-end NLP sentiment analysis pipeline achieving **92% accuracy**, deployed as a live web application via Flask and Streamlit.
@@ -41,7 +37,7 @@ Five NLP classification models were trained and evaluated:
 | TextBlob | Lexicon-based sentiment analysis |
 
 ### 4. Model Selection
-The optimal model was selected based on **precision-recall analysis** — achieving **92% accuracy** on the review text-only approach (ratings excluded to avoid artificial signal from missing data).
+Logistic Regression was selected as the optimal model based on F1-Score, Precision, Recall, and AUC-ROC analysis** — achieving **92% accuracy** on customer review text classification.
 
 ### 5. Deployment
 - **Flask** — REST API backend for real-time inference
